@@ -8,6 +8,7 @@
 .middle-section {
   display: flex;
   height: 550px;
+  border: 2px solid red;
 }
 
 .middle-left-column {

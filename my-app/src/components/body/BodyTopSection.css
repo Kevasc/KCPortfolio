@@ -23,6 +23,7 @@
   flex-direction: column;
   text-align: left;
   margin-left: 100px;
+  border: 2px solid lightblue;
 }
 
 .extra-text {
@@ -34,6 +35,7 @@
 .top-right-column {
   height: inherit;
   width: 50%;
+  border: 2px solid lightblue;
 }
 
 #main-title {

@@ -8,6 +8,7 @@
 .lower-section {
   display: flex;
   height: 550px;
+  border: 2px solid yellow;
 }
 
 .lower-left-column {
