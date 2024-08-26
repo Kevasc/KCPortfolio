@@ -1,0 +1,38 @@
+/* .dough {
+  display: flex;
+  background-image: url("dough.jpeg");
+  background-size: cover;
+  height: 100%;
+} */
+
+.middle-section {
+  display: flex;
+  height: 550px;
+}
+
+.middle-left-column {
+  height: inherit;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-column-content {
+  width: 70%;
+}
+
+.middle-column-title {
+  font-size: 46px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.middle-column-text {
+  line-height: 30px;
+}
+
+.middle-right-column {
+  height: inherit;
+  width: 40%;
+}

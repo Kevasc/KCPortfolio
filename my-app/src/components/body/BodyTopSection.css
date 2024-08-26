@@ -1,0 +1,62 @@
+/* .pizza-pic {
+  display: flex;
+  background-image: url("pizzaSpinning.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  margin-top: 80px;
+} */
+
+.body-text-container {
+  width: 80%;
+  height: 60%;
+}
+
+.top-left-column {
+  color: white;
+  height: inherit;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.extra-text {
+  width: 80%;
+  font-weight: bold;
+  font-size: large;
+}
+
+.top-right-column {
+  height: inherit;
+  width: 50%;
+}
+
+#main-title {
+  font-size: 65px;
+  text-align: left;
+  letter-spacing: -2px;
+}
+
+.buttons {
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  justify-content: left;
+  margin: 20px 0;
+  line-height: 1.7em;
+  cursor: pointer;
+}
+
+.booking-buttons {
+  border: 2px solid white;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 18px;
+  padding: 6px;
+  margin-right: 45px;
+}

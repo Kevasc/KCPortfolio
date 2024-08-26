@@ -1,0 +1,38 @@
+/* .fire {
+  display: flex;
+  background-image: url(".jpeg");
+  background-size: cover;
+  height: 100%;
+} */
+
+.lower-section {
+  display: flex;
+  height: 550px;
+}
+
+.lower-left-column {
+  height: inherit;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lower-column-content {
+  width: 70%;
+}
+
+.lower-column-title {
+  font-size: 46px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.lower-column-text {
+  line-height: 30px;
+}
+
+.lower-right-column {
+  height: inherit;
+  width: 40%;
+}

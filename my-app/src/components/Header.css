@@ -1,0 +1,35 @@
+.heading {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  height: 80px;
+}
+
+.header-button {
+  padding: 1rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.header-button-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo-img {
+  height: 65px;
+  display: flex;
+  padding-top: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
