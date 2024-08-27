@@ -12,28 +12,20 @@ const Header = () => {
       {/* <img className="logo-img" src={logo} alt="logo" /> */}
       <div className="header-button-container">
         <div className="header-button" onClick={() => scrollToSection("dough")}>
-          <p>OUR NEAPOLITAN DOUGH</p>
+          <p>ABOUT ME</p>
         </div>
-        <div className="header-button" onClick={() => scrollToSection("menu")}>
-          <p>WOOD FIRED PIZZA MENU</p>
-        </div>
-        <div
-          className="header-button"
-          onClick={() => scrollToSection("find-us")}
-        >
-          <p>FIND US</p>
-        </div>
+
         <div
           className="header-button"
           onClick={() => scrollToSection("order-online")}
         >
-          <p>ORDER ONLINE</p>
+          <p>MY PROJECTS</p>
         </div>
         <div
           className="header-button"
           onClick={() => scrollToSection("book-table")}
         >
-          <p>BOOK A TABLE</p>
+          <p>GET IN TOUCH</p>
         </div>
       </div>
     </div>
