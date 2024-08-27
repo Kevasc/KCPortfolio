@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <BodyContainer />
-      <Footer />
+      {/* <BodyContainer /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
