@@ -6,21 +6,7 @@ const Footer = () => {
     <div id="order-online" className="footer-container">
       <div id="book-table" className="top-footer">
         <div className="alt-logo"></div>
-        <div className="footer-text">
-          <p>
-            PROVEN Pizzeria <br />
-            56 Newcastle Road,
-            <br />
-            Stone, Staffordshire.
-            <br />
-            ST15 8LB
-            <br />
-            T: 01785 817 007
-            <br />
-            <br />
-            dough@provenpizzeria.co.uk
-          </p>
-        </div>
+        <div className="footer-text">in here i can put contact info ?</div>
         <div className="follow"> Follow us.</div>
         <div className="footer-buttons">
           <div className="footer-button">
