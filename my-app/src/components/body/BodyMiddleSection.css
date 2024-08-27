@@ -1,8 +1,10 @@
-.dough {
+.picture-of-me {
   display: flex;
   background-image: url("../../assets/kcole.jpeg");
   background-size: cover;
-  height: 100%;
+  border-radius: 80%;
+  height: 70%;
+  width: 60%;
 }
 
 .middle-section {

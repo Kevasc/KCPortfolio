@@ -2,23 +2,27 @@ import React from "react";
 import "./BodyMiddleSection.css";
 const BodyMiddleSection = () => {
   return (
-    <div id="dough" className="middle-section">
+    <div id="picture-of-me" className="middle-section">
       <div className="middle-left-column">
         <div className="middle-column-content">
           <p className="middle-column-title">
-            We're in it for <br /> the dough.
+            Kevas Cole <br /> Front End Developer
           </p>
           <p className="middle-column-text">
-            We believe if you’re going to do something then do it properly. So,
-            we are committed to the authentic Neapolitan dough recipe and never
-            compromise ingredients, methods or the time it takes to prove. As we
-            say… perfect Neapolitan pizzas start with perfect dough. It’s been
-            PROVEN.
+            After nearly a decade of refining my skills in the fast-paced world
+            of hospitality, I am embarking on an exciting career switch into
+            front-end technology. My attention to detail, strong communication
+            abilities, and dedication to creating memorable experiences are now
+            being channeled into crafting seamless, user-friendly web
+            interfaces. Passionate about design and driven by a love for
+            learning, I am ready to combine my hospitality background with my
+            new technical expertise to create digital experiences that truly
+            resonate with users.
           </p>
         </div>
       </div>
       <div className="middle-right-column">
-        <div className="dough"></div>
+        <div className="picture-of-me"></div>
       </div>
     </div>
   );
