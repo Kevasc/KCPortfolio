@@ -12,6 +12,7 @@
   height: 85%;
   display: flex;
   padding-top: 70px;
+  border: 2px solid orange;
 }
 
 .bottom-footer {
@@ -22,6 +23,7 @@
   display: flex;
   justify-content: space-around;
   font-size: 12px;
+  border: 2px solid green;
 }
 
 /* .alt-logo {
@@ -41,18 +43,21 @@
   text-align: left;
   display: flex;
   font-family: "Source Sans Pro", Helvetica, Arial, Lucida, sans-serif;
+  border: 2px solid green;
 }
 
 .follow {
   width: 25%;
   font-size: 40px;
   font-weight: 700;
+  border: 2px solid green;
 }
 
 .footer-buttons {
   background-color: white;
   width: 25%;
   color: black;
+  border: 2px solid green;
 }
 
 .footer-button {

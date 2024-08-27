@@ -17,23 +17,28 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 2px solid green;
 }
 
 .middle-column-content {
   width: 70%;
+  border: 2px solid green;
 }
 
 .middle-column-title {
   font-size: 46px;
   font-weight: bold;
   padding-bottom: 30px;
+  border: 2px solid green;
 }
 
 .middle-column-text {
   line-height: 30px;
+  border: 2px solid green;
 }
 
 .middle-right-column {
   height: inherit;
   width: 40%;
+  border: 2px solid green;
 }
