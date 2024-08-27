@@ -1,9 +1,9 @@
-/* .dough {
+.dough {
   display: flex;
-  background-image: url("dough.jpeg");
+  background-image: url("../../assets/kcole.jpeg");
   background-size: cover;
   height: 100%;
-} */
+}
 
 .middle-section {
   display: flex;

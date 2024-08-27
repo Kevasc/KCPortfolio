@@ -1,14 +1,13 @@
 import React from "react";
+
 import BodyMiddleSection from "./BodyMiddleSection";
-import BodyLowerSection from "./BodyLowerSection";
-// import BodyTopSection from "./BodyTopSection";
+// import BodyLowerSection from "./BodyLowerSection";
 
 const BodyContainer = () => {
   return (
     <div>
-      {/* <BodyTopSection /> */}
-      {/* <BodyMiddleSection />
-      <BodyLowerSection /> */}
+      <BodyMiddleSection />
+      {/* <BodyLowerSection />  */}
     </div>
   );
 };
