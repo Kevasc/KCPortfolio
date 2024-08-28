@@ -9,6 +9,12 @@
   border: 2px solid blue;
 }
 
+.logo {
+  display: flex;
+  background-size: cover;
+  height: 100%;
+}
+
 .header-button {
   padding: 1rem;
   font-weight: 700;

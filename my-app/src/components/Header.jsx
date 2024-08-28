@@ -1,7 +1,6 @@
 import React from "react";
-// import logo from "./logo.png";
 import "./Header.css";
-
+import logo from "../assets/kevaslogo.png";
 const Header = () => {
   const scrollToSection = (id) => {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });
@@ -9,7 +8,7 @@ const Header = () => {
 
   return (
     <div className="heading">
-      {/* <img className="logo-img" src={logo} alt="logo" /> */}
+      <img className="logo" src={logo} alt="logo" />
       <div className="header-button-container">
         <div className="header-button" onClick={() => scrollToSection("dough")}>
           <p>ABOUT ME</p>
