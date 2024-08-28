@@ -1,13 +1,13 @@
 import React from "react";
 
 import BodyMiddleSection from "./BodyMiddleSection";
-// import BodyLowerSection from "./BodyLowerSection";
+import BodyLowerSection from "./BodyLowerSection";
 
 const BodyContainer = () => {
   return (
     <div>
       <BodyMiddleSection />
-      {/* <BodyLowerSection />  */}
+      <BodyLowerSection />
     </div>
   );
 };
