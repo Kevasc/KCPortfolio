@@ -1,16 +1,8 @@
-.picture-of-me {
-  display: flex;
-  background-image: url("../../assets/kcole.jpeg");
-  background-size: cover;
-  border-radius: 80%;
-  height: 70%;
-  width: 60%;
-}
-
 .middle-section {
   display: flex;
   height: 550px;
   border: 2px solid red;
+  margin-top: 4rem;
 }
 
 .middle-left-column {
@@ -20,6 +12,14 @@
   align-items: center;
   justify-content: center;
   border: 2px solid green;
+}
+.picture-of-me {
+  display: flex;
+  background-image: url("../../assets/kcole.jpeg");
+  background-size: cover;
+  border-radius: 80%;
+  height: 70%;
+  width: 60%;
 }
 
 .middle-column-content {
@@ -43,4 +43,8 @@
   height: inherit;
   width: 40%;
   border: 2px solid green;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
 }
