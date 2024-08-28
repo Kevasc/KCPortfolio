@@ -13,6 +13,7 @@
   display: flex;
   background-size: cover;
   height: 100%;
+  margin-left: 7rem;
 }
 
 .header-button {
@@ -30,4 +31,5 @@
   border: 2px solid orange;
   justify-content: space-evenly;
   width: 100%;
+  margin-left: 20rem;
 }
