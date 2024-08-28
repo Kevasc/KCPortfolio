@@ -2,7 +2,7 @@ import React from "react";
 import "./BodyLowerSection.css";
 const BodyLowerSection = () => {
   return (
-    <div className="lower-section">
+    <div id="projects" className="lower-section">
       <div className="lower-column-content">
         <p className="lower-column-title">
           Featured

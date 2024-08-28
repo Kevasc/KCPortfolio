@@ -2,7 +2,7 @@ import React from "react";
 import "./BodyMiddleSection.css";
 const BodyMiddleSection = () => {
   return (
-    <div id="picture-of-me" className="middle-section">
+    <div id="introduction-section" className="middle-section">
       <div className="middle-left-column">
         <div className="middle-column-content">
           <p className="middle-column-title">
