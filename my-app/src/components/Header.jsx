@@ -10,13 +10,16 @@ const Header = () => {
     <div className="heading">
       <img className="logo" src={logo} alt="logo" />
       <div className="header-button-container">
-        <div className="header-button" onClick={() => scrollToSection("dough")}>
+        <div
+          className="header-button"
+          onClick={() => scrollToSection("introduction-section")}
+        >
           <p>ABOUT ME</p>
         </div>
 
         <div
           className="header-button"
-          onClick={() => scrollToSection("order-online")}
+          onClick={() => scrollToSection("projects")}
         >
           <p>MY PROJECTS</p>
         </div>
