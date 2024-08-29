@@ -1,6 +1,6 @@
 import React from "react";
 import "./BodyMiddleSection.css";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+
 const BodyMiddleSection = () => {
   return (
     <div id="introduction-section" className="middle-section">
@@ -23,17 +23,19 @@ const BodyMiddleSection = () => {
         </div>
       </div>
       <div className="middle-right-column">
-        <a
-          href="https://www.linkedin.com/in/kevasjordancole/"
-          className="linkedin-link"
-          target="blank"
-        >
-          <div className="picture-of-me">
-            <LinkedInIcon color="primary" />
-          </div>
-        </a>
+        <div className="picture-of-me">
+          <a
+            href="https://www.linkedin.com/in/kevasjordancole/"
+            className="linkedin-link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {""}
+          </a>
+        </div>
       </div>
     </div>
   );
 };
+
 export default BodyMiddleSection;

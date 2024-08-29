@@ -13,21 +13,51 @@
   justify-content: center;
   border: 2px solid green;
 }
-.picture-of-me {
+.middle-right-column {
+  height: inherit;
+  width: 40%;
+  border: 2px solid green;
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.picture-of-me {
+  position: relative;
   background-image: url("../../assets/kcole.jpeg");
   background-size: cover;
-  border-radius: 80%;
-  height: 70%;
-  width: 60%;
+  background-position: center;
+  border-radius: 50%;
+  width: 70%;
+  height: 0;
+  padding-bottom: 70%;
+  transition: opacity 0.5s ease;
+}
+
+.picture-of-me:hover {
+  opacity: 0.8;
 }
 .linkedin-link {
-  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background-size: 10%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-image: url("../../assets/linkedinlogo.png");
 }
+
+.picture-of-me:hover .linkedin-link {
+  opacity: 0.9;
+}
+
 .middle-column-content {
   width: 70%;
   border: 2px solid green;
@@ -43,14 +73,4 @@
 .middle-column-text {
   line-height: 30px;
   border: 2px solid green;
-}
-
-.middle-right-column {
-  height: inherit;
-  width: 40%;
-  border: 2px solid green;
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
 }
