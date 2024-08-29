@@ -22,7 +22,13 @@ const BodyMiddleSection = () => {
         </div>
       </div>
       <div className="middle-right-column">
-        <div className="picture-of-me"></div>
+        <a
+          href="https://www.linkedin.com/in/kevasjordancole/"
+          className="linkedin-link"
+          target="blank"
+        >
+          <div className="picture-of-me" />
+        </a>
       </div>
     </div>
   );
