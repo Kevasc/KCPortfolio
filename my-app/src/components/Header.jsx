@@ -27,6 +27,12 @@ const Header = () => {
           className="header-button"
           onClick={() => scrollToSection("book-table")}
         >
+          <p>CERTIFICATIONS</p>
+        </div>
+        <div
+          className="header-button"
+          onClick={() => scrollToSection("book-table")}
+        >
           <p>GET IN TOUCH</p>
         </div>
       </div>
