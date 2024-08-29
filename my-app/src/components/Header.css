@@ -6,14 +6,14 @@
   width: 100%;
   top: 0;
   height: 4rem;
-  border: 2px solid blue;
+  z-index: 10;
 }
 
 .logo {
   display: flex;
   background-size: cover;
   height: 100%;
-  margin-left: 7rem;
+  margin-left: 10rem;
 }
 
 .header-button {
@@ -21,14 +21,13 @@
   font-weight: 700;
   font-family: Source Sans Pro, Helvetica, Arial, Lucida, sans-serif;
   font-size: 12px;
-  border: 2px solid green;
 }
 
 .header-button-container {
   display: flex;
   align-items: center;
   cursor: pointer;
-  border: 2px solid orange;
+
   justify-content: space-evenly;
   width: 100%;
   margin-left: 20rem;
