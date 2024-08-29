@@ -1,5 +1,6 @@
 import React from "react";
 import "./BodyMiddleSection.css";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 const BodyMiddleSection = () => {
   return (
     <div id="introduction-section" className="middle-section">
@@ -27,7 +28,9 @@ const BodyMiddleSection = () => {
           className="linkedin-link"
           target="blank"
         >
-          <div className="picture-of-me" />
+          <div className="picture-of-me">
+            <LinkedInIcon color="primary" />
+          </div>
         </a>
       </div>
     </div>
