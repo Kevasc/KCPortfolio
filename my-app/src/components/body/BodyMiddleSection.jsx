@@ -3,12 +3,11 @@ import "./BodyMiddleSection.css";
 
 const BodyMiddleSection = () => {
   return (
-    <div id="introduction-section" className="middle-section">
+    <div id="introduction-section" className="introduction-section">
       <div className="middle-left-column">
         <div className="middle-column-content">
-          <p className="middle-column-title">
-            Kevas Cole <br /> Front End Developer
-          </p>
+          <p className="middle-column-title">Kevas Cole</p>
+          <p className="middle-column-subtitle">Front End Developer</p>
           <p className="middle-column-text">
             After nearly a decade of refining my skills in the fast-paced world
             of hospitality, I am embarking on an exciting career switch into

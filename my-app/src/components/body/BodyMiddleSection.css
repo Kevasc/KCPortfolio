@@ -1,7 +1,6 @@
-.middle-section {
+.introduction-section {
   display: flex;
   height: 550px;
-  border: 2px solid red;
   margin-top: 4rem;
 }
 
@@ -11,12 +10,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid green;
+  background: black;
+  color: white;
 }
 .middle-right-column {
   height: inherit;
   width: 40%;
-  border: 2px solid green;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,7 +27,6 @@
   background-position: center;
   border-radius: 50%;
   width: 70%;
-  height: 0;
   padding-bottom: 70%;
   transition: opacity 0.5s ease;
 }
@@ -47,7 +45,7 @@
   align-items: center;
   opacity: 0;
   transition: opacity 0.3s ease;
-  background-size: 10%;
+  background-size: 20%;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
@@ -60,17 +58,20 @@
 
 .middle-column-content {
   width: 70%;
-  border: 2px solid green;
 }
 
 .middle-column-title {
   font-size: 46px;
   font-weight: bold;
+}
+
+.middle-column-subtitle {
+  font-size: 46px;
+  font-weight: bold;
   padding-bottom: 30px;
-  border: 2px solid green;
+  color: darkgray;
 }
 
 .middle-column-text {
   line-height: 30px;
-  border: 2px solid green;
 }
