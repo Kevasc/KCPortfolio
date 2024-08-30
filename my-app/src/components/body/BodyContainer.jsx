@@ -1,9 +1,8 @@
 import React from "react";
-
 import IntroductionSection from "./IntroductionSection";
 import ConfettiFormProject from "./ConfettiFormProject";
 import StarSeekerProject from "./StarSeekerProject";
-import Certifications from "./Certifications";
+import Languages from "./Languages";
 
 const BodyContainer = () => {
   return (
@@ -11,7 +10,7 @@ const BodyContainer = () => {
       <IntroductionSection />
       <ConfettiFormProject />
       <StarSeekerProject />
-      {/* <Certifications /> */}
+      <Languages />
     </div>
   );
 };

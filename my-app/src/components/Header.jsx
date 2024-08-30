@@ -25,9 +25,9 @@ const Header = () => {
         </div>
         <div
           className="header-button"
-          onClick={() => scrollToSection("book-table")}
+          onClick={() => scrollToSection("languages")}
         >
-          <p>CERTIFICATIONS</p>
+          <p>LANGUAGES</p>
         </div>
         <div
           className="header-button"
