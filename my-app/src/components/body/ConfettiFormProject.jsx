@@ -3,8 +3,8 @@ import "./ConfettiFormProject.css";
 
 const ConfettiFormProject = () => {
   return (
-    <div id="projects" className="projects-section">
-      <div className="projects-left-column">
+    <div id="projects" className="confetti-section">
+      <div className="confetti-left-column">
         <div className="confetti-screenshot">
           <a
             href="https://github.com/Kevasc/confetti-form"
@@ -16,10 +16,10 @@ const ConfettiFormProject = () => {
           </a>
         </div>
       </div>
-      <div className="projects-right-column">
-        <div className="projects-column-content">
-          <h1 className="projects-column-title">Confetti Form</h1>
-          <p className="projects-column-text">
+      <div className="confetti-right-column">
+        <div className="confetti-column-width">
+          <h1 className="confetti-column-title">Confetti Form</h1>
+          <p className="confetti-column-text">
             This project contains an HTML form that collects user information
             including first name, last name, email, and date of birth. When the
             form is submitted, it checks the last digit of the birth year and
