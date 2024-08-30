@@ -1,43 +1,69 @@
-.projects-section {
+.starseeker-section {
   display: flex;
   height: 550px;
 }
 
-.projects-left-column {
+.starseeker-right-column {
   height: inherit;
-  width: 60%;
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.projects-right-column {
+.starseeker-left-column {
   height: inherit;
-  width: 40%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
   background: black;
   color: white;
 }
+.starseeker-screenshot {
+  background-image: url(../../assets/starSeekerScreenshot.png);
+  position: relative;
+  background-size: cover;
+  object-fit: contain;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  transition: opacity 0.5s ease;
+}
 
-.projects-column-content {
+.starseeker-screenshot:hover {
+  opacity: 0.8;
+}
+
+.github-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  background-size: 13%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-image: url("../../assets/githublogo.png");
+}
+
+.starseeker-screenshot:hover .github-link {
+  opacity: 0.9;
+}
+
+.starseeker-column-width {
   width: 70%;
 }
 
-.projects-column-title {
+.starseeker-column-title {
   font-size: 46px;
   font-weight: bold;
   padding-bottom: 30px;
 }
 
-.projects-column-text {
+.starseeker-column-text {
   line-height: 30px;
-}
-
-.confetti-screenshot {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100%;
-  width: 100%;
 }
