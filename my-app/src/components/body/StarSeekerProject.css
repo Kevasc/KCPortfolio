@@ -20,8 +20,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: black;
-  color: white;
+  background: rgb(247, 247, 247);
+  color: rgb(0, 0, 0);
 }
 .starseeker-github-logo {
   object-fit: contain;
