@@ -8,7 +8,11 @@
   width: 40%;
   display: flex;
   align-items: center;
+  background-image: url(../../assets/confettiScreenshot.png);
   justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .confetti-right-column {
   height: inherit;
@@ -19,42 +23,32 @@
   background: black;
   color: white;
 }
-.confetti-screenshot {
-  background-image: url(../../assets/confettiScreenshot.png);
+.confetti-github-logo {
+  object-fit: contain;
   position: relative;
   background-size: cover;
-  object-fit: contain;
   background-position: center;
-  height: 100%;
-  width: 100%;
+  background-image: url("../../assets/githublogo.png");
+  height: 10rem;
+  width: 10rem;
   transition: opacity 0.5s ease;
 }
 
-.confetti-screenshot:hover {
-  opacity: 0.8;
-}
-
-.github-link {
-  position: absolute;
-  top: 0;
-  left: 0;
+.confetti-github-link {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
   transition: opacity 0.5s ease;
-  background-size: 13%;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-  background-image: url("../../assets/githublogo.png");
+  opacity: 0;
 }
 
-.confetti-screenshot:hover .github-link {
+.confetti-left-column:hover .confetti-github-link {
   opacity: 0.9;
 }
 
-.confetti-column-width {
+.confetti-text-container {
   width: 70%;
 }
 

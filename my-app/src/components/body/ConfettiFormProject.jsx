@@ -5,19 +5,18 @@ const ConfettiFormProject = () => {
   return (
     <div id="projects" className="confetti-section">
       <div className="confetti-left-column">
-        <div className="confetti-screenshot">
-          <a
-            href="https://github.com/Kevasc/confetti-form"
-            className="github-link"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {""}
-          </a>
-        </div>
+        <a
+          href="https://github.com/Kevasc/confetti-form"
+          className="confetti-github-link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="confetti-github-logo" />
+        </a>
       </div>
+
       <div className="confetti-right-column">
-        <div className="confetti-column-width">
+        <div className="confetti-text-container">
           <h1 className="confetti-column-title">Confetti Form</h1>
           <p className="confetti-column-text">
             This project contains an HTML form that collects user information

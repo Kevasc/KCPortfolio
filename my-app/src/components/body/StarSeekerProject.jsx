@@ -5,7 +5,7 @@ const StarSeekerProject = () => {
   return (
     <div id="projects" className="starseeker-section">
       <div className="starseeker-left-column">
-        <div className="starseeker-column-width">
+        <div className="starseeker-text-container">
           <h1 className="starseeker-column-title">Star Seeker</h1>
           <p className="starseeker-column-text">
             Star Seeker is a user-friendly application designed to help you

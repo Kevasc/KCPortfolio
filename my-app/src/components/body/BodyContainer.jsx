@@ -10,8 +10,8 @@ const BodyContainer = () => {
     <div>
       <IntroductionSection />
       <ConfettiFormProject />
-      <StarSeekerProject />
-      <Certifications />
+      {/* <StarSeekerProject /> */}
+      {/* <Certifications /> */}
     </div>
   );
 };
