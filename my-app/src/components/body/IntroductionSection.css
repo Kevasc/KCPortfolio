@@ -4,7 +4,7 @@
   margin-top: 4rem;
 }
 
-.middle-left-column {
+.introduction-left-column {
   height: inherit;
   width: 60%;
   display: flex;
@@ -13,7 +13,7 @@
   background: black;
   color: white;
 }
-.middle-right-column {
+.introduction-right-column {
   height: inherit;
   width: 40%;
   display: flex;
@@ -21,8 +21,8 @@
   justify-content: center;
 }
 .picture-of-me {
-  position: relative;
   background-image: url("../../assets/kcole.jpeg");
+  position: relative;
   background-size: cover;
   background-position: center;
   border-radius: 50%;
@@ -34,6 +34,7 @@
 .picture-of-me:hover {
   opacity: 0.8;
 }
+
 .linkedin-link {
   position: absolute;
   top: 0;
@@ -56,22 +57,22 @@
   opacity: 0.9;
 }
 
-.middle-column-content {
+.introduction-column-content {
   width: 70%;
 }
 
-.middle-column-title {
+.introduction-column-title {
   font-size: 46px;
   font-weight: bold;
 }
 
-.middle-column-subtitle {
+.introduction-column-subtitle {
   font-size: 46px;
   font-weight: bold;
   padding-bottom: 30px;
   color: darkgray;
 }
 
-.middle-column-text {
+.introduction-column-text {
   line-height: 30px;
 }

@@ -1,14 +1,14 @@
 import React from "react";
-import "./BodyMiddleSection.css";
+import "./IntroductionSection.css";
 
-const BodyMiddleSection = () => {
+const IntroductionSection = () => {
   return (
     <div id="introduction-section" className="introduction-section">
-      <div className="middle-left-column">
-        <div className="middle-column-content">
-          <p className="middle-column-title">Kevas Cole</p>
-          <p className="middle-column-subtitle">Front End Developer</p>
-          <p className="middle-column-text">
+      <div className="introduction-left-column">
+        <div className="introduction-column-content">
+          <p className="introduction-column-title">Kevas Cole</p>
+          <p className="introduction-column-subtitle">Front End Developer</p>
+          <p className="introduction-column-text">
             After nearly a decade of refining my skills in the fast-paced world
             of hospitality, I am embarking on an exciting career switch into
             front-end technology. My attention to detail, strong communication
@@ -21,7 +21,7 @@ const BodyMiddleSection = () => {
           </p>
         </div>
       </div>
-      <div className="middle-right-column">
+      <div className="introduction-right-column">
         <div className="picture-of-me">
           <a
             href="https://www.linkedin.com/in/kevasjordancole/"
@@ -37,4 +37,4 @@ const BodyMiddleSection = () => {
   );
 };
 
-export default BodyMiddleSection;
+export default IntroductionSection;

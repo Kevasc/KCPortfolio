@@ -1,13 +1,17 @@
 import React from "react";
 
-import BodyMiddleSection from "./BodyMiddleSection";
-import BodyLowerSection from "./BodyLowerSection";
+import IntroductionSection from "./IntroductionSection";
+import ConfettiFormProject from "./ConfettiFormProject";
+import StarSeekerProject from "./StarSeekerProject";
+import Certifications from "./Certifications";
 
 const BodyContainer = () => {
   return (
     <div>
-      <BodyMiddleSection />
-      <BodyLowerSection />
+      <IntroductionSection />
+      <ConfettiFormProject />
+      <StarSeekerProject />
+      <Certifications />
     </div>
   );
 };

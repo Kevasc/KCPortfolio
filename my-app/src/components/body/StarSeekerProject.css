@@ -1,19 +1,18 @@
-.lower-section {
+.projects-section {
   display: flex;
   height: 550px;
 }
 
-.lower-left-column {
+.projects-left-column {
   height: inherit;
   width: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.lower-right-column {
+.projects-right-column {
   height: inherit;
   width: 40%;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,17 +20,17 @@
   color: white;
 }
 
-.lower-column-content {
-  width: 100%;
+.projects-column-content {
+  width: 70%;
 }
 
-.lower-column-title {
+.projects-column-title {
   font-size: 46px;
   font-weight: bold;
   padding-bottom: 30px;
 }
 
-.lower-column-text {
+.projects-column-text {
   line-height: 30px;
 }
 

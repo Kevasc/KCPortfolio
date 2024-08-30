@@ -1,9 +1,9 @@
 import React from "react";
-import "./BodyLowerSection.css";
-const BodyLowerSection = () => {
+import "./StarSeekerProject.css";
+const StarSeekerProject = () => {
   return (
-    <div id="projects" className="lower-section">
-      <div className="lower-left-column">
+    <div id="projects" className="projects-section">
+      <div className="projects-left-column">
         <a
           href="https://github.com/Kevasc/confetti-form"
           className="confetti-screenshot"
@@ -19,10 +19,10 @@ const BodyLowerSection = () => {
           <div className="confetti-screenshot"></div>
         </a>
       </div>
-      <div className="lower-right-column">
-        <div className="lower-column-content">
-          <h1 className="lower-column-title">Confetti Form</h1>
-          <p className="lower-column-text">
+      <div className="projects-right-column">
+        <div className="projects-column-content">
+          <h1 className="projects-column-title">Confetti Form</h1>
+          <p className="projects-column-text">
             This project contains an HTML form that collects user information
             including first name, last name, email, and date of birth. When the
             form is submitted, it checks the last digit of the birth year and
@@ -41,4 +41,4 @@ const BodyLowerSection = () => {
     </div>
   );
 };
-export default BodyLowerSection;
+export default StarSeekerProject;
