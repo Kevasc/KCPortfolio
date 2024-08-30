@@ -6,17 +6,20 @@ const StarSeekerProject = () => {
     <div id="projects" className="starseeker-section">
       <div className="starseeker-right-column">
         <div className="starseeker-text-container">
-          <h1 className="starseeker-column-title">Starseeker Form</h1>
+          <h1 className="starseeker-column-title">Star Seeker Form</h1>
           <p className="starseeker-column-text">
-            This project contains an HTML form that collects user information
-            including first name, last name, email, and date of birth. When the
-            form is submitted, it checks the last digit of the birth year and
-            launches a confetti animation if the year ends in "5" or "0". If the
-            year does not end in "5" or "0", it shows an alert message.
+            Star Seeker is a user-friendly application designed to help you
+            explore the cosmos effortlessly. Whether you're planning
+            interstellar journeys, calculating travel costs, or searching for
+            the most affordable routes, Star Seeker provides the tools you need.
+            The app features a sleek design and seamless functionality, making
+            it your ideal companion for cosmic adventures. The project is
+            currently under active development, with a react native mobile app
+            under construction also.
             <br />
             <br></br>
             <h2>Built With:</h2>
-            HTML | CSS | Javascript | Bootstrap for form styling
+            React | Redux | HTML | CSS
           </p>
         </div>
       </div>
