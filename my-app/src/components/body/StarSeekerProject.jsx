@@ -18,7 +18,9 @@ const StarSeekerProject = () => {
             under construction also.
             <br />
             <br></br>
-            <h2>Built With:</h2>
+            <u>
+              <h2>Built With:</h2>
+            </u>
             React | Redux | HTML | CSS
           </p>
         </div>

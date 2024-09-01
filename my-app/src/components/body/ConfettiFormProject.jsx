@@ -26,7 +26,9 @@ const ConfettiFormProject = () => {
             year does not end in "5" or "0", it shows an alert message.
             <br />
             <br></br>
-            <h2>Built With:</h2>
+            <u>
+              <h2>Built With:</h2>
+            </u>
             HTML | CSS | Javascript | Bootstrap for form styling
           </p>
         </div>
