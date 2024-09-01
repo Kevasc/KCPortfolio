@@ -7,7 +7,7 @@
   top: 0;
   height: 4rem;
   z-index: 10;
-  border-bottom: 1px solid black;
+  border-bottom: 0.5px solid black;
 }
 
 .logo {
@@ -26,7 +26,8 @@
 
 .header-button:hover {
   color: #5f6bba;
-  transition: 0.4s;
+  transition: 0.2s;
+  /* make buttons larger on hover */
 }
 
 .header-button-container {
