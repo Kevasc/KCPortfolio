@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  border: 2px solid green;
 }
 
 .top-footer {
@@ -12,18 +11,16 @@
   height: 85%;
   display: flex;
   padding-top: 70px;
-  border: 2px solid orange;
 }
 
 .bottom-footer {
   color: white;
   height: 15%;
-  background-color: black;
+  background-color: #5f6bba;
   align-items: center;
   display: flex;
   justify-content: space-around;
   font-size: 12px;
-  border: 2px solid green;
 }
 
 .alt-logo {
@@ -34,6 +31,8 @@
   background-position: center;
   display: flex;
   height: 70px;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-text {
@@ -43,21 +42,18 @@
   text-align: left;
   display: flex;
   font-family: "Source Sans Pro", Helvetica, Arial, Lucida, sans-serif;
-  border: 2px solid green;
 }
 
 .follow {
   width: 25%;
   font-size: 40px;
   font-weight: 700;
-  border: 2px solid green;
 }
 
 .footer-buttons {
   background-color: white;
   width: 25%;
   color: black;
-  border: 2px solid green;
 }
 
 .footer-button {
