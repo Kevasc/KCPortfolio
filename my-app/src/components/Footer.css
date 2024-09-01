@@ -26,15 +26,15 @@
   border: 2px solid green;
 }
 
-/* .alt-logo {
-  background-image: url(alt-logo.jpeg);
+.alt-logo {
+  background-image: url(../assets/kcbluelogo.png);
   background-size: contain;
   width: 25%;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   height: 70px;
-} */
+}
 
 .footer-text {
   font-size: 15px;
