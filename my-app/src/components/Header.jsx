@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import logo from "../assets/kevaslogo.png";
+import logo from "../assets/kcbluelogo.png";
 const Header = () => {
   const scrollToSection = (id) => {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });
