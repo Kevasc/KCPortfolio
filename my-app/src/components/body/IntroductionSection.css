@@ -1,11 +1,10 @@
 .introduction-section {
   display: flex;
   height: 550px;
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 .introduction-left-column {
-  height: inherit;
   width: 60%;
   display: flex;
   align-items: center;
@@ -14,7 +13,6 @@
   color: rgb(0, 0, 0);
 }
 .introduction-right-column {
-  height: inherit;
   width: 40%;
   display: flex;
   align-items: center;
