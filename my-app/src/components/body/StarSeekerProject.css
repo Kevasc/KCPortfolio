@@ -22,6 +22,7 @@
   justify-content: center;
   background: white;
   color: rgb(0, 0, 0);
+  border-top: 1px solid black;
 }
 .starseeker-github-logo {
   object-fit: contain;
