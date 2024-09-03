@@ -1,10 +1,10 @@
 .confetti-section {
   display: flex;
   height: 550px;
+  padding: 3rem;
 }
 
 .confetti-left-column {
-  height: inherit;
   width: 40%;
   display: flex;
   align-items: center;
@@ -13,9 +13,9 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-left: 3rem;
 }
 .confetti-right-column {
-  height: inherit;
   width: 60%;
   display: flex;
   align-items: center;
