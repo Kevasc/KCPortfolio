@@ -1,24 +1,38 @@
 import React from "react";
 import "./Footer.css";
+import linkedinlogo from "../assets/linkedinlogo.png";
+import githublogo from "../assets/githublogo.png";
+import gmaillogo from "../assets/gmaillogo.png";
+import kcbluelogo from "../assets/kcbluelogo.png";
 
 const Footer = () => {
   return (
-    <div id="order-online" className="footer-container">
-      <div id="book-table" className="top-footer">
-        <div className="alt-logo"></div>
-        <div className="footer-text">in here i can put contact info ?</div>
-        <div className="follow"> Follow us.</div>
-        <div className="footer-buttons">
-          <div className="footer-button">
-            <p>Book a table</p>
-          </div>
-          <div className="footer-button">
-            <p>Order online</p>
-          </div>
-        </div>
+    <div id="contact-me" className="footer-container">
+      <img className="alt-logo" src={kcbluelogo} alt="blue kc logo" />
+      <div className="footer-text">
+        <p>
+          Kevas Cole
+          <br />
+          Front End Developer
+          <br />
+          Stone, Staffordshire
+          <br />
+          United Kingdom
+        </p>
       </div>
-      <div className="bottom-footer">
-        <p>PROVEN Pizzeria © Copyright 2024 | Privacy Policy | Kevas Cole ☆</p>
+      <div className="connect-subtitle"> Connect with me:</div>
+      <div className="connect-container">
+        <img
+          className="footer-logos"
+          src={linkedinlogo}
+          alt="linkedin footer logo"
+        />
+        <img
+          className="footer-logos"
+          src={githublogo}
+          alt="github footer logo"
+        />
+        <img className="footer-logos" src={gmaillogo} alt="gmail footer logo" />
       </div>
     </div>
   );
