@@ -18,6 +18,7 @@
   width: 40%;
   display: flex;
   align-items: center;
+  margin-right: 3rem;
   justify-content: center;
 }
 .picture-of-me {
