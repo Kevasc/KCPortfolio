@@ -9,9 +9,9 @@ const BodyContainer = () => {
   return (
     <div>
       <IntroductionSection />
+      <Languages />
       <ConfettiFormProject />
       <StarSeekerProject />
-      <Languages />
       <Footer />
     </div>
   );
