@@ -21,9 +21,14 @@ const Header = () => {
           className="header-button"
           onClick={() => scrollToSection("projects")}
         >
-          <p>MY PROJECTS</p>
+          <p>FEATURED PROJECTS</p>
         </div>
-
+        <div
+          className="header-button"
+          onClick={() => scrollToSection("languages")}
+        >
+          <p>LANGUAGES & FRAMEWORKS</p>
+        </div>
         <div
           className="header-button"
           onClick={() => scrollToSection("contact-me")}
