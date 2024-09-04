@@ -6,7 +6,7 @@ const StarSeekerProject = () => {
     <div id="projects" className="starseeker-section">
       <div className="starseeker-right-column">
         <div className="starseeker-text-container">
-          <h1 className="starseeker-column-title">Star Seeker Form</h1>
+          <h1 className="starseeker-column-title">Star Seeker </h1>
           <p className="starseeker-column-text">
             Star Seeker is a user-friendly application designed to help you
             explore the cosmos effortlessly. Whether you're planning

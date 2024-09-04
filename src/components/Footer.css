@@ -25,6 +25,7 @@
 }
 .connect-container {
   display: flex;
+  gap: 3rem;
 }
 .connect-subtitle {
   font-size: 20px;
