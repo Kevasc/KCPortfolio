@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/%7BKCPortfolio%7D/static/css/main.31bd77bb.css",
+    "main.js": "/%7BKCPortfolio%7D/static/js/main.0c0bd3b7.js",
+    "static/js/453.ed3810f9.chunk.js": "/%7BKCPortfolio%7D/static/js/453.ed3810f9.chunk.js",
+    "static/media/starSeekerScreenshot.png": "/%7BKCPortfolio%7D/static/media/starSeekerScreenshot.af4e588e158c7d2c0157.png",
+    "static/media/confettiScreenshot.png": "/%7BKCPortfolio%7D/static/media/confettiScreenshot.ced1f414f97bf4ab4cab.png",
+    "static/media/kcole.jpeg": "/%7BKCPortfolio%7D/static/media/kcole.65e792eceb392e1999f1.jpeg",
+    "static/media/kcbluelogo.png": "/%7BKCPortfolio%7D/static/media/kcbluelogo.ae3083ef0e2313bfb836.png",
+    "static/media/githublogo.png": "/%7BKCPortfolio%7D/static/media/githublogo.a855c3975c028d8069f5.png",
+    "static/media/linkedinlogo.png": "/%7BKCPortfolio%7D/static/media/linkedinlogo.f249b38224ca41a0b909.png",
+    "index.html": "/%7BKCPortfolio%7D/index.html",
+    "main.31bd77bb.css.map": "/%7BKCPortfolio%7D/static/css/main.31bd77bb.css.map",
+    "main.0c0bd3b7.js.map": "/%7BKCPortfolio%7D/static/js/main.0c0bd3b7.js.map",
+    "453.ed3810f9.chunk.js.map": "/%7BKCPortfolio%7D/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31bd77bb.css",
+    "static/js/main.0c0bd3b7.js"
+  ]
+}
