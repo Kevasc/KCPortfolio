@@ -8,6 +8,7 @@
   height: 4rem;
   z-index: 10;
   border-bottom: 0.5px solid black;
+  box-shadow: 0 -6px 5px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
@@ -22,19 +23,19 @@
   font-weight: 700;
   font-family: Source Sans Pro, Helvetica, Arial, Lucida, sans-serif;
   font-size: 12px;
+  transition: transform 0.5s ease-in-out;
 }
 
 .header-button:hover {
   color: #5f6bba;
   transition: 0.2s;
-  /* make buttons larger on hover */
+  transform: scale(1.1);
 }
 
 .header-button-container {
   display: flex;
   align-items: center;
   cursor: pointer;
-
   justify-content: space-evenly;
   width: 100%;
   margin-left: 20rem;

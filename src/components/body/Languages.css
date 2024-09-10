@@ -32,6 +32,13 @@
 .frameworks-logos-only img {
   height: 3rem;
   width: 3rem;
+  transition: transform 0.5s ease-in-out;
+}
+
+.languages-logos-only:hover,
+.frameworks-logos-only:hover {
+  transition: 0.3s;
+  transform: scale(1.01);
 }
 
 .languages-logos-only,
