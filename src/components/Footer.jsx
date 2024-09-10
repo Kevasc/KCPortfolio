@@ -9,6 +9,37 @@ const Footer = () => {
   return (
     <div id="contact-me" className="footer-container">
       <img className="alt-logo" src={kcbluelogo} alt="blue kc logo" />
+
+      <div className="connect-subtitle">
+        Connect with me:
+        <div className="connect-container">
+          <a
+            href="https://www.linkedin.com/in/kevascole/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="footer-logos"
+              src={linkedinlogo}
+              alt="linkedin footer logo"
+            />
+          </a>
+          <a href="https://github.com/Kevasc" target="_blank" rel="noreferrer">
+            <img
+              className="footer-logos"
+              src={githublogo}
+              alt="github footer logo"
+            />
+          </a>
+          <a href="mailto:colekevas@gmail.com" target="_blank" rel="noreferrer">
+            <img
+              className="footer-logos"
+              src={gmaillogo}
+              alt="Gmail footer logo"
+            />
+          </a>
+        </div>
+      </div>
       <div className="footer-text">
         <p>
           Kevas Cole
@@ -19,20 +50,6 @@ const Footer = () => {
           <br />
           United Kingdom
         </p>
-      </div>
-      <div className="connect-subtitle"> Connect with me:</div>
-      <div className="connect-container">
-        <img
-          className="footer-logos"
-          src={linkedinlogo}
-          alt="linkedin footer logo"
-        />
-        <img
-          className="footer-logos"
-          src={githublogo}
-          alt="github footer logo"
-        />
-        <img className="footer-logos" src={gmaillogo} alt="gmail footer logo" />
       </div>
     </div>
   );
