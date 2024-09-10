@@ -9,9 +9,9 @@ const IntroductionSection = () => {
           <p className="introduction-column-title">Kevas Cole</p>
           <p className="introduction-column-subtitle">Front End Developer</p>
           <p className="introduction-column-text">
-            After nearly a decade of refining my skills in the fast-paced world
-            of hospitality, I am embarking on an exciting career switch into
-            front-end technology. <br />
+            After nearly a decade of refining my latte art skills in the
+            fast-paced world of hospitality, I am embarking on an exciting
+            career switch into front-end technology. <br />
             My attention to detail, strong communication abilities, and
             dedication to creating memorable experiences are now being channeled
             into crafting seamless, user-friendly web interfaces.

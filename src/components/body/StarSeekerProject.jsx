@@ -8,14 +8,10 @@ const StarSeekerProject = () => {
         <div className="starseeker-text-container">
           <h1 className="starseeker-column-title">Star Seeker </h1>
           <p className="starseeker-column-text">
-            Star Seeker is a user-friendly application designed to help you
-            explore the cosmos effortlessly. Whether you're planning
-            interstellar journeys, calculating travel costs, or searching for
-            the most affordable routes, Star Seeker provides the tools you need.
-            The app features a sleek design and seamless functionality, making
-            it your ideal companion for cosmic adventures. The project is
-            currently under active development, with a react native mobile app
-            under construction also.
+            Star Seeker is a sleek space travel website I made to showcase my
+            skills using APIS, built with React with Redux as storage. <br />
+            This project is currently under active development, with a react
+            native mobile app under construction also.
             <br />
             <br></br>
             <u>

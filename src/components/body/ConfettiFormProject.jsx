@@ -19,11 +19,13 @@ const ConfettiFormProject = () => {
         <div className="confetti-text-container">
           <h1 className="confetti-column-title">Confetti Form</h1>
           <p className="confetti-column-text">
-            This project contains an HTML form that collects user information
-            including first name, last name, email, and date of birth. When the
-            form is submitted, it checks the last digit of the birth year and
-            launches a confetti animation if the year ends in "5" or "0". If the
-            year does not end in "5" or "0", it shows an alert message.
+            Confetti Form is a fun little project I completed to showcase my
+            skills using HTML form validation and with Bootstrap for styling.{" "}
+            <br />
+            It will show a confetti animation, made with javascript, if the year
+            you input ends in a 0 or 5, or an alert message. <br />
+            This project is hosted{" "}
+            <a href="https://kevasc.github.io/confetti-form/">here</a>.
             <br />
             <br></br>
             <u>
