@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import linkedinlogo from "../assets/linkedinlogo.png";
 import githublogo from "../assets/githublogo.png";
-import gmaillogo from "../assets/gmaillogo.png";
+import gmaillogo from "../assets/new.png";
 import kcbluelogo from "../assets/kcbluelogo.png";
 
 const Footer = () => {
