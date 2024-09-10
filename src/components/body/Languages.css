@@ -32,13 +32,23 @@
 .frameworks-logos-only img {
   height: 3rem;
   width: 3rem;
-  transition: transform 0.5s ease-in-out;
 }
 
-.languages-logos-only:hover,
-.frameworks-logos-only:hover {
-  transition: 0.3s;
-  transform: scale(1.01);
+.logo-container {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.logo-image {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.logo-container:hover {
+  transform: scale(1.1);
 }
 
 .languages-logos-only,
@@ -46,5 +56,5 @@
   display: flex;
   justify-content: center;
   gap: 13rem;
-  padding: 1rem 0;
+  margin: 20px 0;
 }

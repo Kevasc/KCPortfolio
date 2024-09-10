@@ -5,49 +5,61 @@ const logos = [
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
     alt: "css logo",
+    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
     alt: "html logo",
+    link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
     alt: "javascript logo",
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
     alt: "react logo",
+    link: "https://reactjs.org/",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
     alt: "redux logo",
+    link: "https://redux.js.org/",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg",
     alt: "react bootstrap logo",
+    link: "https://react-bootstrap.github.io/",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg",
     alt: "git logo",
+    link: "https://git-scm.com/",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg",
     alt: "material ui logo",
+    link: "https://mui.com/",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
     alt: "node logo",
+    link: "https://nodejs.org/",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg",
     alt: "npm logo",
+    link: "https://www.npmjs.com/",
   },
 ];
 
 const Languages = () => {
   const logoArray = logos.map((logo, index) => (
-    <div key={index}>
-      <img src={logo.src} alt={logo.alt} />
+    <div key={index} className="logo-container">
+      <a href={logo.link} target="_blank" rel="noopener noreferrer">
+        <img src={logo.src} alt={logo.alt} className="logo-image" />
+      </a>
     </div>
   ));
 
