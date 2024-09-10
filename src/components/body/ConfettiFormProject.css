@@ -27,7 +27,8 @@
 .confetti-github-logo {
   object-fit: contain;
   position: relative;
-  background-size: cover;
+  background-size: 40%;
+  background-repeat: no-repeat;
   background-position: center;
   background-image: url("../../assets/githublogo.png");
   height: 10rem;
