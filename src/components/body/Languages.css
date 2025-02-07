@@ -2,6 +2,7 @@
   height: 100px;
   display: flex;
   flex-direction: column;
+  background-color: lavender;
   width: 100%;
   justify-content: center;
   box-sizing: border-box;
@@ -16,6 +17,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background-color: lavender;
   width: 100%;
   padding-top: 2rem;
   margin-bottom: 3rem;
@@ -23,7 +25,11 @@
 
 .languages-title {
   font-size: 46px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
   font-weight: bold;
+  background-color: lavender;
   padding-bottom: 0.3rem;
   border-bottom: 2px solid rgb(95, 107, 180);
 }
@@ -48,13 +54,13 @@
 }
 
 .logo-container:hover {
-  transform: scale(1.1);
+  transform: scale(1.5);
 }
 
 .languages-logos-only,
 .frameworks-logos-only {
   display: flex;
   justify-content: center;
-  gap: 13rem;
+  gap: 8rem;
   margin: 20px 0;
 }
