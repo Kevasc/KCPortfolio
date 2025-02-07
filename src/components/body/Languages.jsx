@@ -1,56 +1,82 @@
 import React from "react";
 import "./Languages.css";
 
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+/>;
+
 const logos = [
   {
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
-    alt: "css logo",
-    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-  },
-  {
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
-    alt: "html logo",
-    link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+    alt: "Typescript logo",
+    link: "https://www.typescriptlang.org/",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
-    alt: "javascript logo",
+    alt: "Javascript logo",
     link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-    alt: "react logo",
+    alt: "React logo",
     link: "https://reactjs.org/",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
-    alt: "redux logo",
+    alt: "Redux logo",
     link: "https://redux.js.org/",
   },
   {
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg",
-    alt: "react bootstrap logo",
-    link: "https://react-bootstrap.github.io/",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+    alt: "HTML logo",
+    link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
   },
   {
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg",
-    alt: "git logo",
-    link: "https://git-scm.com/",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+    alt: "CSS logo",
+    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    alt: "Tailwind logo",
+    link: "https://tailwindcss.com/",
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg",
+    alt: "Jest logo",
+    link: "https://jestjs.io/",
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+    alt: "Next.js logo",
+    link: "https://nextjs.org/",
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg",
+    alt: "Vercel logo",
+    link: "https://vercel.com/",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg",
-    alt: "material ui logo",
+    alt: "Material UI logo",
     link: "https://mui.com/",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
-    alt: "node logo",
+    alt: "Node logo",
     link: "https://nodejs.org/",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg",
-    alt: "npm logo",
+    alt: "NPM logo",
     link: "https://www.npmjs.com/",
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
+    alt: "Visual Studio Code",
+    link: "https://code.visualstudio.com/",
   },
 ];
 
