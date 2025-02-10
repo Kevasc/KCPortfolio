@@ -6,18 +6,22 @@ const StarSeekerProject = () => {
     <div id="projects" className="starseeker-section">
       <div className="starseeker-right-column">
         <div className="starseeker-text-container">
-          <h1 className="starseeker-column-title">Star Seeker </h1>
+          <h1 className="starseeker-column-title">Star Seeker</h1>
           <p className="starseeker-column-text">
-            Star Seeker is a sleek space travel website I made to showcase my
-            skills using APIS, built with React with Redux as storage. <br />
-            This project is currently under active development, with a react
-            native mobile app under construction also.
+            Star Seeker is a React-based web app that interacts with REST API to
+            deliver a seamless and informative experience for space travellers.
+            Calculate the cost of your interstellar journey, discover efficient
+            routes through a network of gates, and browse through detailed gate
+            information.
+            <br /> Deployed on Vercel.
             <br />
-            <br></br>
+            <br />
+            <br />
             <u>
               <h2>Built With:</h2>
+              <br />
             </u>
-            React | Redux | HTML | CSS
+            React | JavaScript | Redux | REST API | HTML | CSS | Material UI
           </p>
         </div>
       </div>

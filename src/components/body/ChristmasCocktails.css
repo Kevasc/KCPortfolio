@@ -1,26 +1,24 @@
-.confetti-section {
+.cocktails-section {
   display: flex;
   height: 550px;
   padding: 2rem;
   border-top: dotted 3px lavender;
 }
 
-.confetti-left-column {
+.cocktails-left-column {
   width: 60%;
-  background-image: url(../../assets/confettiScreenshot.png);
+  background-image: url(../../assets/christmasCocktails.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
-
-.confetti-right-column {
+.cocktails-right-column {
   width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.confetti-github-logo {
+.cocktails-github-logo {
   object-fit: contain;
   position: relative;
   background-size: 40%;
@@ -32,7 +30,7 @@
   transition: opacity 0.5s ease;
 }
 
-.confetti-github-link {
+.cocktails-github-link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -42,21 +40,21 @@
   opacity: 0;
 }
 
-.confetti-left-column:hover .confetti-github-link {
+.cocktails-left-column:hover .cocktails-github-link {
   opacity: 0.9;
 }
 
-.confetti-text-container {
+.cocktails-text-container {
   width: 70%;
 }
 
-.confetti-column-title {
+.cocktails-column-title {
   font-size: 46px;
   font-weight: bold;
   border-bottom: 2px solid lavender;
 }
 
-.confetti-column-text {
+.cocktails-column-text {
   line-height: 30px;
   padding-top: 30px;
 }

@@ -1,26 +1,35 @@
-.confetti-section {
+.beauty-section {
   display: flex;
   height: 550px;
   padding: 2rem;
-  border-top: dotted 3px lavender;
 }
 
-.confetti-left-column {
+.beauty-left-column {
   width: 60%;
-  background-image: url(../../assets/confettiScreenshot.png);
+  background-image: url(../../assets/beautyDecoder.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
-
-.confetti-right-column {
+.beauty-right-column {
   width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.confetti-github-logo {
+.featured-projects-title {
+  font-size: 46px;
+  width: 100%;
+  justify-content: center;
+  padding: 1rem;
+  display: flex;
+  font-weight: bold;
+  margin-top: 8rem;
+  border-bottom: 2px solid lavender;
+}
+
+.beauty-github-logo {
   object-fit: contain;
   position: relative;
   background-size: 40%;
@@ -32,7 +41,7 @@
   transition: opacity 0.5s ease;
 }
 
-.confetti-github-link {
+.beauty-github-link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -42,21 +51,21 @@
   opacity: 0;
 }
 
-.confetti-left-column:hover .confetti-github-link {
+.beauty-left-column:hover .beauty-github-link {
   opacity: 0.9;
 }
 
-.confetti-text-container {
+.beauty-text-container {
   width: 70%;
 }
 
-.confetti-column-title {
+.beauty-column-title {
   font-size: 46px;
   font-weight: bold;
   border-bottom: 2px solid lavender;
 }
 
-.confetti-column-text {
+.beauty-column-text {
   line-height: 30px;
   padding-top: 30px;
 }

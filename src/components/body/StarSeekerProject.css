@@ -1,29 +1,25 @@
 .starseeker-section {
   display: flex;
   height: 550px;
-  padding: 3rem;
+  padding: 2rem;
+  border-top: dotted 3px lavender;
 }
 
 .starseeker-left-column {
+  width: 60%;
+  background-image: url(../../assets/starSeekerScreenshot.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.starseeker-right-column {
   width: 40%;
   display: flex;
   align-items: center;
-  background-image: url(../../assets/starSeekerScreenshot.png);
   justify-content: center;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-right: 3rem;
 }
-.starseeker-right-column {
-  width: 60%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: white;
-  color: rgb(0, 0, 0);
-  border-top: 1px solid black;
-}
+
 .starseeker-github-logo {
   object-fit: contain;
   position: relative;
@@ -57,7 +53,7 @@
 .starseeker-column-title {
   font-size: 46px;
   font-weight: bold;
-  border-bottom: 2px solid rgb(95, 107, 186);
+  border-bottom: 2px solid lavender;
 }
 
 .starseeker-column-text {
