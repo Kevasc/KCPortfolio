@@ -9,14 +9,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: lavender;
   color: rgb(0, 0, 0);
 }
 .introduction-right-column {
   width: 40%;
   display: flex;
   align-items: center;
-  background-color: lavender;
   justify-content: center;
 }
 .picture-of-me {

@@ -8,21 +8,13 @@
   height: 4rem;
   z-index: 10;
   border-bottom: 0.5px solid black;
-  box-shadow: 0 -6px 5px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-  background-size: cover;
-  height: 3rem;
-  margin-left: 8.2rem;
-  margin-top: 0.5rem;
 }
 
 .header-button {
   padding: 1rem;
   font-weight: 700;
   font-family: Source Sans Pro, Helvetica, Arial, Lucida, sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   transition: transform 0.5s ease-in-out;
 }
 
@@ -38,5 +30,4 @@
   cursor: pointer;
   justify-content: space-evenly;
   width: 100%;
-  margin-left: 20rem;
 }
