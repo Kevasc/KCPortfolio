@@ -6,14 +6,17 @@ const StarSeekerProject = () => {
     <div id="projects" className="starseeker-section">
       <div className="starseeker-right-column">
         <div className="starseeker-text-container">
-          <h1 className="starseeker-column-title">Star Seeker</h1>
+          <h1 className="starseeker-column-title">
+            <u>Star Seeker</u>
+          </h1>
           <p className="starseeker-column-text">
             Star Seeker is a React-based web app that interacts with REST API to
             deliver a seamless and informative experience for space travellers.
             Calculate the cost of your interstellar journey, discover efficient
             routes through a network of gates, and browse through detailed gate
             information.
-            <br /> Deployed on Vercel.
+            <br /> Deployed on {""}
+            <a href="https://star-seeker-phi.vercel.app/">Vercel</a>.
             <br />
             <br />
             <br />

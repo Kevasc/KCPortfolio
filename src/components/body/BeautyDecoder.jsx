@@ -8,13 +8,16 @@ const BeautyDecoderProject = () => {
       <div id="projects" className="beauty-section">
         <div className="beauty-right-column">
           <div className="beauty-text-container">
-            <h1 className="beauty-column-title">Beauty Decoder</h1>
+            <h1 className="beauty-column-title">
+              <u>Beauty Decoder</u>
+            </h1>
             <p className="beauty-column-text">
               Beauty Decoder tells you exactly what’s in your makeup, instantly
               check for ingredients like alcohol, gluten, or silicones, all in
               one place.
               <br />
-              Deployed on Vercel
+              Deployed on {""}
+              <a href="https://beauty-decoder.vercel.app/">Vercel</a>.
               <br />
               <br />
               <br />
@@ -22,7 +25,8 @@ const BeautyDecoderProject = () => {
                 <h2>Built With:</h2>
                 <br />
               </u>
-              Next.js | TypeScript | React | Tailwind CSS | REST API | Jest
+              Next.js | TypeScript | React | Redux | Tailwind CSS | REST API |
+              Jest
             </p>
           </div>
         </div>

@@ -6,10 +6,13 @@ const ProvenPizzaProject = () => {
     <div id="projects" className="proven-section">
       <div className="proven-right-column">
         <div className="proven-text-container">
-          <h1 className="proven-column-title">Proven Pizza </h1>
+          <h1 className="proven-column-title">
+            <u>Proven Pizza</u>
+          </h1>
           <p className="proven-column-text">
             A single page application replicating the website of artisan pizza
-            restaurant, Proven Pizzaria. <br /> Deployed on Vercel
+            restaurant, Proven Pizzaria. <br /> Deployed on {""}
+            <a href="https://proven-pizza.vercel.app/">Vercel</a>.
             <br />
             <br />
             <br />
@@ -17,7 +20,7 @@ const ProvenPizzaProject = () => {
               <h2>Built With:</h2>
               <br />
             </u>
-            React | Redux | HTML | CSS
+            React | Javascript | HTML | CSS
           </p>
         </div>
       </div>

@@ -6,12 +6,15 @@ const ChristmasCocktailsProject = () => {
     <div id="projects" className="cocktails-section">
       <div className="cocktails-right-column">
         <div className="cocktails-text-container">
-          <h1 className="cocktails-column-title">Christmas Cocktails</h1>
+          <h1 className="cocktails-column-title">
+            <u>Christmas Cocktails</u>
+          </h1>
           <p className="cocktails-column-text">
             A mobile first, scaleable festive cocktail menu built for a seasonal
             event, easily accessible via a QR code.
             <br />
-            Deployed on Vercel
+            Deployed on {""}
+            <a href="https://christmas-cocktails-dun.vercel.app/">Vercel</a>.
             <br />
             <br />
             <br />

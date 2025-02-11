@@ -6,7 +6,9 @@ const ConfettiFormProject = () => {
     <div id="projects" className="confetti-section">
       <div className="confetti-right-column">
         <div className="confetti-text-container">
-          <h1 className="confetti-column-title">Confetti Form</h1>
+          <h1 className="confetti-column-title">
+            <u>Confetti Form</u>
+          </h1>
           <p className="confetti-column-text">
             Confetti Form is a fun project I built to showcase my skills in HTML
             form validation, combined with Bootstrap for styling.
@@ -14,7 +16,8 @@ const ConfettiFormProject = () => {
             If you enter a year ending in 0 or 5, a festive confetti animation
             (powered by JavaScript) will celebrate your choice. Otherwise,
             you'll receive a playful alert message!
-            <br /> Deployed on Github pages.
+            <br /> Deployed on {""}
+            <a href="https://kevasc.github.io/confetti-form/">Github Pages</a>.
             <br />
             <br />
             <br />
