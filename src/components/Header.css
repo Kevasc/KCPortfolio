@@ -10,7 +10,8 @@
   border-bottom: 0.5px solid black;
 }
 
-.header-button {
+.header-button,
+.header-button-cv {
   padding: 1rem;
   font-weight: 700;
   font-family: Source Sans Pro, Helvetica, Arial, Lucida, sans-serif;
@@ -19,6 +20,12 @@
 }
 
 .header-button:hover {
+  color: #5f6bba;
+  transition: 0.1s;
+  transform: scale(1.1);
+}
+
+.header-button-cv:hover {
   color: #5f6bba;
   transition: 0.1s;
   transform: scale(1.1);

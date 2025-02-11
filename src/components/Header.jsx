@@ -27,6 +27,23 @@ const Header = () => {
         >
           <p>FEATURED PROJECTS</p>
         </div>
+        <div className="header-button-cv">
+          <a
+            href="https://flowcv.com/resume/gpsqsg23bb"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              textDecoration: "none",
+              color: "black",
+              transition: "color 0.3s ease-in-out",
+            }}
+            onMouseEnter={(e) => (e.target.style.color = "#5f6bba")}
+            onMouseLeave={(e) => (e.target.style.color = "black")}
+          >
+            <p>VIEW MY CV</p>
+          </a>
+        </div>
+
         <div
           className="header-button"
           onClick={() => scrollToSection("contact-me")}
