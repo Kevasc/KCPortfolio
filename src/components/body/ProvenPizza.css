@@ -11,7 +11,9 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  transition: opacity 0.5s ease;
 }
+
 .proven-right-column {
   width: 40%;
   display: flex;
@@ -40,8 +42,12 @@
   opacity: 0;
 }
 
-.proven-left-column:hover .proven-github-link {
-  opacity: 0.8;
+.proven-left-column:hover {
+  opacity: 0.6;
+}
+
+.proven-github-link:hover {
+  opacity: 0.9;
 }
 
 .proven-text-container {
@@ -50,8 +56,7 @@
 
 .proven-column-title {
   font-size: 46px;
-  font-weight: bold;
-  border-bottom: 2px solid lavender;
+  font-weight: lighter;
 }
 .proven-column-text {
   line-height: 30px;

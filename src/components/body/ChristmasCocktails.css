@@ -11,6 +11,7 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  transition: opacity 0.5s ease;
 }
 .cocktails-right-column {
   width: 40%;
@@ -40,7 +41,11 @@
   opacity: 0;
 }
 
-.cocktails-left-column:hover .cocktails-github-link {
+.cocktails-left-column:hover {
+  opacity: 0.6;
+}
+
+.cocktails-github-link:hover {
   opacity: 0.9;
 }
 
@@ -50,8 +55,7 @@
 
 .cocktails-column-title {
   font-size: 46px;
-  font-weight: bold;
-  border-bottom: 2px solid lavender;
+  font-weight: lighter;
 }
 
 .cocktails-column-text {
