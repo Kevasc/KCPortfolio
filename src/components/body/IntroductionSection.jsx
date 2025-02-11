@@ -6,19 +6,13 @@ const IntroductionSection = () => {
     <div id="introduction-section" className="introduction-section">
       <div className="introduction-left-column">
         <div className="introduction-column-content">
-          <p className="introduction-column-title">Kevas Cole</p>
+          <p className="introduction-column-title">Jordan Cole</p>
           <p className="introduction-column-subtitle">Front End Developer</p>
           <p className="introduction-column-text">
-            After nearly a decade of refining my latte art skills in the
-            fast-paced world of hospitality, I am embarking on an exciting
-            career switch into front-end technology. <br />
-            My attention to detail, strong communication abilities, and
-            dedication to creating memorable experiences are now being channeled
-            into crafting seamless, user-friendly web interfaces.
-            <br /> Passionate about design and driven by a love for learning, I
-            am ready to combine my hospitality background with my new technical
-            expertise to create digital experiences that truly resonate with
-            users.
+            After a decade in hospitality, perfecting latte art, pouring great
+            pints and creating memorable customer experiences, I’m now shifting
+            into Front-End development. <br /> I’m excited to apply my skills to
+            tech and create meaningful digital experiences.
           </p>
         </div>
       </div>

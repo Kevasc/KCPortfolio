@@ -94,7 +94,7 @@ const Languages = () => {
 
   return (
     <div id="languages" className="language-container">
-      <h1 className="languages-title">Languages and Frameworks</h1>
+      <h1 className="languages-title">Languages, Frameworks & Tools</h1>
       <div className="language-image-container">
         <div className="languages-logos-only">{firstLine}</div>
         <div className="frameworks-logos-only">{secondLine}</div>
