@@ -13,9 +13,8 @@ const ConfettiFormProject = () => {
             Confetti Form is a fun project I built to showcase my skills in HTML
             form validation, combined with Bootstrap for styling.
             <br />
-            If you enter a year ending in 0 or 5, a festive confetti animation
-            (powered by JavaScript) will celebrate your choice. Otherwise,
-            you'll receive a playful alert message!
+            If you enter a year ending in 0 or 5, a confetti animation will
+            celebrate your choice. Otherwise, you'll receive an alert message!
             <br /> Deployed on {""}
             <a href="https://kevasc.github.io/confetti-form/">Github Pages</a>.
             <br />

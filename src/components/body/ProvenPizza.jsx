@@ -20,7 +20,7 @@ const ProvenPizzaProject = () => {
               <h2>Built With:</h2>
               <br />
             </u>
-            React | Javascript | HTML | CSS
+            React | JavaScript | HTML | CSS
           </p>
         </div>
       </div>
