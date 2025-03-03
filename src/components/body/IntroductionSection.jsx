@@ -6,7 +6,7 @@ const IntroductionSection = () => {
     <div id="introduction-section" className="introduction-section">
       <div className="introduction-left-column">
         <div className="introduction-column-content">
-          <p className="introduction-column-title">Jordan Cole</p>
+          <p className="introduction-column-title">Kevas Cole</p>
           <p className="introduction-column-subtitle">Front End Developer</p>
           <p className="introduction-column-text">
             After a decade in hospitality, perfecting latte art, pouring great

@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
       <div className="footer-text">
         <p>
-          Jordan Cole
+          Kevas Cole
           <br />
           Front End Developer
           <br />
